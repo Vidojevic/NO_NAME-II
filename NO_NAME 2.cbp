@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NO_NAME 2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NO_NAME 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/SFML/SFML-2.6.1/include" />
+				</Compiler>
+				<Linker>
+					<Add directory="D:/SFML/SFML-2.6.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NO_NAME 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../../../../TDM-GCC-32/lib/libopengl32.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libfreetype.a" />
+					<Add library="../../../../TDM-GCC-32/lib/libwinmm.a" />
+					<Add library="../../../../TDM-GCC-32/lib/libgdi32.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libopenal32.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libFLAC.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libvorbisenc.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libvorbisfile.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libvorbis.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libogg.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-graphics-s.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-window-s.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-system-s.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-audio-s.a" />
+					<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-network-s.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add directory="D:/SFML/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="D:/SFML/SFML-2.5.1/lib/libFLAC.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libfreetype.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libogg.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libopenal32.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-audio.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-audio-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-audio-s.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-audio-s-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-graphics.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-graphics-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-graphics-s.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-graphics-s-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-main.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-main-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-network.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-network-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-network-s.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-network-s-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-system.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-system-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-system-s.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-system-s-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-window.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-window-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-window-s.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libsfml-window-s-d.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libvorbis.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libvorbisenc.a" />
+			<Add library="D:/SFML/SFML-2.5.1/lib/libvorbisfile.a" />
+			<Add directory="D:/SFML/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="Components.cpp" />
+		<Unit filename="Components.h" />
+		<Unit filename="Dice.cpp" />
+		<Unit filename="Dice.h" />
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Entity.h" />
+		<Unit filename="EntityManager.cpp" />
+		<Unit filename="EntityManager.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="MCombat.cpp" />
+		<Unit filename="MCombat.h" />
+		<Unit filename="MMovement.cpp" />
+		<Unit filename="MMovement.h" />
+		<Unit filename="MSelection.cpp" />
+		<Unit filename="MSelection.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="NO_NAME 2.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
