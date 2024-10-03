@@ -1,0 +1,1 @@
+Military units, battles, resources, domination Iron resource is used for building units and gold for unit repair. Battles are fought with throwing dices, something like board games (Space Crusade, Warhammer). The one who manages to hold enemy base for 3 turns, wins.
